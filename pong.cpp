@@ -139,7 +139,6 @@ int main()  {
   ConCurInf.dwSize = 10;
   ConCurInf.bVisible = false;
   SetConsoleCursorInfo(hOut, &ConCurInf);
-  // Draw border
   DrawBorder();
   bool started = false;
   pad you(width / 2, height - 2, 4);
